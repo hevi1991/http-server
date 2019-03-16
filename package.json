@@ -12,7 +12,8 @@
     "command"
   ],
   "scripts": {
-    "start": "node ./bin/http-server",
+    "start": "node ./bin/http-server -c-1",
+    "dev": "npm run start test/fixtures",
     "pretest": "common bin/http-server lib/ test",
     "test": "vows --spec --isolate"
   },
@@ -68,7 +69,7 @@
   "dependencies": {
     "colors": "1.0.3",
     "corser": "~2.0.0",
-    "ecstatic": "^3.0.0",
+    "ecstatic": "github:hevi1991/node-ecstatic",
     "http-proxy": "^1.8.1",
     "opener": "~1.4.0",
     "optimist": "0.6.x",
