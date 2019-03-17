@@ -3,6 +3,16 @@
 [![npm](https://img.shields.io/npm/v/http-server.svg?style=flat-square)](https://www.npmjs.com/package/http-server)
 [![license](https://img.shields.io/github/license/indexzero/http-server.svg?style=flat-square)](https://github.com/indexzero/http-server)
 
+# 安装方法
+
+1.克隆这个项目到你本地。
+2.`npm install`，使用管理员权限安装，遇到网络问题自行解决。
+3.在项目根目录`npm link`
+
+# 使用方法
+1.用命令行进入你存漫画的路径
+2.`comic-server`，好了，享受你的漫画吧
+
 # http-server: a command-line http server
 
 `http-server` is a simple, zero-configuration command-line http server.  It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development, and learning.
